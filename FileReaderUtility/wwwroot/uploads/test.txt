@@ -1,0 +1,21 @@
+Un client a besoin d’une application simple qui lit un fichier texte et affiche le résultat sur son écran.
+écran. Veuillez implémenter cette solution initiale et valider dans un référentiel Git avec le libellé
+"Version 1.0". Quelques semaines plus tard, le client a demandé d’étendre la fonctionnalité de l’application afin que XML
+les fichiers peuvent aussi être lus. Enregistrez ensuite vos modifications dans le référentiel Git et marquez-les comme
+"Version 1.2". Quelques mois plus tard, le client a demandé que l’application puisse lire des données cryptées.
+fichiers texte. Veuillez noter que l’algorithme chiffré n’est pas important et que vous devriez pouvoir
+changer le mécanisme de cryptage sans changer votre code. Mettre en œuvre ces nouvelles
+requis et s’engager dans le référentiel avec l’étiquette «Version 1.3». Quelque temps plus tard, le
+client invité à avoir des fichiers XML cryptés dans la nouvelle version afin de se baser sur ce nouvel utilisateur
+histoire la "version 1.4" doit être engagée dans le référentiel. Enfin, le client a demandé à
+prendre en charge les fichiers JSON simples et cryptés dans le cadre de la «version 1.5».
+Bonus: implémenter une interface utilisateur simple permettant à l’utilisateur de sélectionner le type de fichier
+elle veut lire l'algorithme de cryptage et l'emplacement du fichier. L'interface doit afficher
+le contenu du fichier pour l'utilisateur pour validation.
+Remarques
+- Tous les programmes doivent être écrits en C #;
+- Aucun fichier de base de données n'est requis. Pour la persistance, il existe plusieurs solutions en mémoire;
+- L'utilisation de ASP.NET Core est obligatoire pour le premier exercice.
+- Les tests unitaires sont très appréciés dans les exercices 1 et 3;
+- Tout le code source devrait être disponible dans un dépôt GitHub pour révision.
+- Pensez code professionnel!
