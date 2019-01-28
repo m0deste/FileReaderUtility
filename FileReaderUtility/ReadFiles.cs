@@ -50,7 +50,7 @@ namespace FileReaderUtility
 
         public static String ReadJSONFile(String filePath)
         {
-            return "";
+            return ReadTextFile(filePath);
         }
 
     }
